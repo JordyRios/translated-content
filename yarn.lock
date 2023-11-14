@@ -373,17 +373,24 @@ markdownlint-cli2@0.5.1:
     strip-json-comments "5.0.0"
     yaml "2.1.1"
 
-markdownlint-rule-helpers@~0.17.2:
-  version "0.17.2"
-  resolved "https://registry.yarnpkg.com/markdownlint-rule-helpers/-/markdownlint-rule-helpers-0.17.2.tgz#64d6e8c66e497e631b0e40cf1cef7ca622a0b654"
-  integrity sha512-XaeoW2NYSlWxMCZM2B3H7YTG6nlaLfkEZWMBhr4hSPlq9MuY2sy83+Xr89jXOqZMZYjvi5nBCGoFh7hHoPKZmA==
+markdownlint-micromark@0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/markdownlint-micromark/-/markdownlint-micromark-0.1.2.tgz#5520e04febffa46741875a2f297509ffdb561f5c"
+  integrity sha512-jRxlQg8KpOfM2IbCL9RXM8ZiYWz2rv6DlZAnGv8ASJQpUh6byTBnEsbuMZ6T2/uIgntyf7SKg/mEaEBo1164fQ==
 
-markdownlint-rule-search-replace@1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/markdownlint-rule-search-replace/-/markdownlint-rule-search-replace-1.0.5.tgz#20cc1681e3c162dd43d19614e3d1515e75cf0299"
-  integrity sha512-PXpHZuZrqaPA0kpkPSsTPVndxtoM+wgG95V9vzL5sZl+SQUp8hJIHSqOnNJOwd85ykgjbnripZYf0IN40ADkdw==
+markdownlint-rule-helpers@0.21.0:
+  version "0.21.0"
+  resolved "https://registry.yarnpkg.com/markdownlint-rule-helpers/-/markdownlint-rule-helpers-0.21.0.tgz#197ed640b35b21450618eb6796bbe7bfe7ef4020"
+  integrity sha512-27WM6H76t79EZjEl3jSabV0ZzXsC5QaSslI/5N1XuXV0mJRA6i3BPMGFrtZUbhlCNgtY6oC9h5JhtpDMv95tKg==
   dependencies:
-    markdownlint-rule-helpers "~0.17.2"
+    markdownlint-micromark "0.1.2"
+
+markdownlint-rule-search-replace@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/markdownlint-rule-search-replace/-/markdownlint-rule-search-replace-1.2.0.tgz#18b59555b6eeb442619f22fc7edfdaa1973eb7a1"
+  integrity sha512-l2eeVjb0ijxO+dO1ZrODcht+qnJ0VuiAAdBx1J8oa2kAugXl3NhxAGjfNuTfEJae5OQbdSGT+NjMczyzBXvWMA==
+  dependencies:
+    markdownlint-rule-helpers "0.21.0"
 
 markdownlint@0.26.2:
   version "0.26.2"
